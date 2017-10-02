@@ -8,16 +8,19 @@ body {
     position: relative;
 }
 #content {
-    background-image: url("images/file0001996933684.jpg");
 }
+img {
+    max-width: 100%;
+    max-height: 100%;
 
+}
 .conText {
     color: red;
-    z-index: 2;
 }
 .topBar {
     position: absolute;
     width: 100%;
+    z-index: 2;
 }
 
 .left {
