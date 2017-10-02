@@ -1,12 +1,78 @@
 body {
     font: 100%/1.5em Helvetica, sans-serif;
+
 }
-.wrapper {
-    width: 1200px;
+#wrapper {
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
 }
-.contest {
-    width: 1140px;
+#content {
+    background-image: url("images/file0001996933684.jpg");
 }
-.perks {
-    width: 1140px;
+
+.conText {
+    color: red;
+    z-index: 2;
+}
+.topBar {
+    position: absolute;
+    width: 100%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.bar {
+    height: 8.02%;
+    overflow: auto;
+}
+
+.bar li {
+    display: inline-block;
+}
+#contest {
+    background-color: darkorange;
+    color: white;
+}
+#perks {
+
+}
+
+.third {
+    display: inline-block;
+    padding: 10px;
+}
+#blog {
+
+}
+.blogPic {
+    display: inline-block;
+    height: auto;
+}
+.catArt {
+    width: 33%;
+    position: absolute;
+    text-align:center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.title {
+    width: 33%;
+    position: absolute;
+    text-align:center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+footer {
+    background-color: darkorange;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
 }
